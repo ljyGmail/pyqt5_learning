@@ -23,7 +23,7 @@ class MyApp(QWidget):
 
     def draw_point(self, qp):
         qp.setPen(QPen(Qt.blue, 8))
-        qp.drawPoint(self.width() / 2, self.height() / 2)
+        qp.drawPoint(int(self.width() / 2), int(self.height() / 2))
 
 
 if __name__ == '__main__':
